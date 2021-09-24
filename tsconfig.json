@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "esnext",
+    "strict": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "lib": ["es6"],
+    "jsx": "react",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
